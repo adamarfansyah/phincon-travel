@@ -16,8 +16,22 @@ function* doGetAllPost() {
   }
 }
 
+// function* doCreatePost({ post }) {
+//   try {
+//     const response = yield call(createPostApi, post);
+//     console.log({ response });
+//     yield put(createPostAction(response));
+//     const posts = yield call(getAllPostApi);
+//     console.log({ posts });
+//     yield put(createPostSuccessAction(posts));
+//   } catch (error) {
+//     yield put(createPostFailureAction(error));
+//   }
+// }
+
 export default function* homeSaga() {
   yield takeLatest(GET_POSTS_INIT, doGetAllPost);
+  // yield takeLatest(CREATE_POST_INIT, doCreatePost);
 }
 
 // export function* doGetAllPost() {

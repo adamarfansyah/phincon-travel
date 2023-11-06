@@ -1,5 +1,4 @@
-// import { GET_ALL_POST, SET_ALL_POST, CREATE_POST, SET_NEW_POST, SET_COUNT } from "./constants";
-import { GET_POSTS_FAILURE, GET_POSTS_INIT, GET_POSTS_SUCCESS } from "./constants";
+import { GET_POSTS_FAILURE, GET_POSTS_INIT, GET_POSTS_SUCCESS, SEARCH_POST } from "./constants";
 
 export const initGetAllPosts = () => ({
   type: GET_POSTS_INIT,
@@ -15,22 +14,7 @@ export const getAllPostsFailureAction = (error) => ({
   error,
 });
 
-// export const setAllPost = (posts) => ({
-//   type: SET_ALL_POST,
-//   posts,
-// });
-
-// export const createPost = (post) => ({
-//   type: CREATE_POST,
-//   post,
-// });
-
-// export const setNewPost = (post) => ({
-//   type: SET_NEW_POST,
-//   post,
-// });
-
-// export const setCount = (value) => ({
-//   type: SET_COUNT,
-//   value,
-// });
+export const searchPost = (value) => ({
+  type: SEARCH_POST,
+  value,
+});

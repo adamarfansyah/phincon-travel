@@ -12,6 +12,12 @@
     padding: 20px 15px;
     .cardPost__descWrapper {
       margin-bottom: 10px;
+      cursor: pointer;
+
+      &:hover {
+        color: $primary;
+      }
+
       h1 {
         @include sub-title;
       }

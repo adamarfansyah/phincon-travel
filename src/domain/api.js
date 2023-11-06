@@ -4,6 +4,8 @@ const baseURL = "http://localhost:3000";
 
 export const urls = {
   posts: "/posts",
+  bookmarks: "/bookmarks",
+  profile: "/profile",
 };
 
 export const callAPI = async (endpoint, method, params = {}, headers = {}, data = {}) => {

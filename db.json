@@ -64,15 +64,6 @@
       "date": "06 October 2020, Chronic"
     },
     {
-      "id": "dwaff2rr454",
-      "title": "Meeting The President Of Ecu ...",
-      "imageUrl": "https://images.unsplash.com/photo-1682687220742-aba13b6e50ba?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "<h1>TEST DULU YA GES YAA</h1>",
-      "shortDescription": "My best travel story is from a time I was in a small city called Salinas on the south coast of Ecuador. I was just hanging with a local friend and surfing every day before I started to head ...",
-      "userId": 2,
-      "date": "06 October 2020, Chronic"
-    },
-    {
       "id": "pgoeakpokfowakwad",
       "title": "Adventure With A Stranger in ...",
       "imageUrl": "https://images.unsplash.com/photo-1682687220742-aba13b6e50ba?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -107,11 +98,57 @@
       "shortDescription": "My best travel story is from a time I was in a small city called Salinas on the south coast of Ecuador. I was just hanging with a local friend and surfing every day before I started to head ...",
       "userId": 2,
       "date": "06 October 2020, Chronic"
+    },
+    {
+      "title": "LAGI",
+      "imageUrl": "https://images.unsplash.com/photo-1693974660255-049ab5cbefdb?auto=format&fit=crop&q=80&w=2063&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "shortDescription": "tEST ADD ",
+      "description": "<h1>test add</h1>",
+      "id": "CKdZY54"
+    },
+    {
+      "title": "tetsdw",
+      "imageUrl": "https://images.unsplash.com/photo-1693974660255-049ab5cbefdb?auto=format&fit=crop&q=80&w=2063&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "shortDescription": "awdawd",
+      "description": "<h1>test add</h1>",
+      "id": "khdI20p"
+    },
+    {
+      "title": "tetsdw",
+      "imageUrl": "https://images.unsplash.com/photo-1693974660255-049ab5cbefdb?auto=format&fit=crop&q=80&w=2063&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "shortDescription": "awdawd",
+      "description": "<h1>test add</h1>",
+      "id": "JOJwv_E"
     }
   ],
-  "profile": {
-    "id": 1,
-    "name": "Fadhil",
-    "password": "fadhil1234"
-  }
+  "profile": [
+    {
+      "id": 1,
+      "name": "Fadhil",
+      "password": "fadhil1234"
+    },
+    {
+      "id": 2,
+      "name": "Cihuahua",
+      "password": "fadhil1234"
+    }
+  ],
+  "bookmarks": [
+    {
+      "id": "4091309dsosff",
+      "title": "Beautiful Travel Friendship",
+      "imageUrl": "https://images.unsplash.com/photo-1682687220742-aba13b6e50ba?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "<h1>TEST DULU YA GES YAA</h1>",
+      "shortDescription": "I’ve been in Playa del Carmen, Mexico for a few weeks now for my divemaster training. I spent every day in the water with customers and my instructor. I loved it! We shared the boat with another ...",
+      "userId": 2,
+      "date": "06 October 2020, Chronic"
+    },
+    {
+      "title": "tetsdw",
+      "imageUrl": "https://images.unsplash.com/photo-1693974660255-049ab5cbefdb?auto=format&fit=crop&q=80&w=2063&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "shortDescription": "awdawd",
+      "description": "<h1>test add</h1>",
+      "id": "JOJwv_E"
+    }
+  ]
 }
