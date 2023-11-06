@@ -1,0 +1,21 @@
+@import "../../styles/base";
+
+.inputCustom {
+  background-color: white;
+  padding-left: 20px;
+  display: flex;
+  input {
+    width: 100%;
+    border: none;
+    width: 100%;
+    font-size: 18px;
+    padding: 15px 0;
+    &:focus {
+      outline: none;
+    }
+  }
+  .btn {
+    @include primary;
+    height: 100%;
+  }
+}

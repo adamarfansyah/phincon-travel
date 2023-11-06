@@ -1,0 +1,16 @@
+@import "../../styles/base";
+.listCardPost {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 50px;
+  padding-bottom: 100px;
+  @include breakpoint(medium) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @include breakpoint(large) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @include breakpoint(super) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

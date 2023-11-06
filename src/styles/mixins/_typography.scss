@@ -1,0 +1,18 @@
+@import "../variables/color";
+
+@mixin title {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+@mixin sub-title {
+  font-family: $fontPoppins;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+@mixin desc {
+  font-family: $fontPoppins;
+  font-size: 12px;
+  font-weight: 400;
+}

@@ -1,0 +1,73 @@
+@import "../../styles/base";
+
+.layout {
+  padding: 20px;
+  background-color: $bg-gray;
+  @include breakpoint(large) {
+    padding: 0 100px;
+  }
+}
+
+.layout__jumbotron {
+  position: relative;
+  .jumbotron__wrapper {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+    @include breakpoint(medium) {
+      top: 50px;
+      left: 50px;
+    }
+    @include breakpoint(large) {
+      top: 60px;
+      left: 100px;
+    }
+    h1 {
+      font-weight: 300;
+      font-style: italic;
+      font-size: 18px;
+      font-style: italic;
+      font-weight: 100;
+      text-align: left;
+      color: white;
+      @include breakpoint(medium) {
+        font-size: 24px;
+      }
+      @include breakpoint(large) {
+        font-size: 64px;
+      }
+    }
+    p {
+      font-size: 12px;
+      font-style: italic;
+      font-weight: 100;
+      text-align: left;
+      color: white;
+      margin-top: 5px;
+      @include breakpoint(medium) {
+        margin-top: 10px;
+        font-size: 16px;
+      }
+      @include breakpoint(large) {
+        margin-top: 20px;
+        font-size: 24px;
+      }
+    }
+  }
+  .layout__img {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+    filter: brightness(0.5);
+  }
+}
+
+.sticky {
+  position: sticky;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

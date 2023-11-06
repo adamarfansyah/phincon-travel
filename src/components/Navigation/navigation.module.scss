@@ -1,0 +1,32 @@
+@import "../../styles/base";
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  background-color: transparent;
+  width: 100%;
+  z-index: 1000;
+
+  // position: absolute;
+  // width: 100%;
+  // background-color: transparent;
+  // transition: background-color 0.3s ease-in-out;
+
+  @include breakpoint(large) {
+    padding: 20px 100px;
+  }
+  .navigation__buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    @include breakpoint(large) {
+      flex-direction: row;
+      padding: 20px 100px;
+    }
+  }
+}

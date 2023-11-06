@@ -1,0 +1,33 @@
+@import "../variables/color";
+@import "../variables/font";
+
+@mixin primary {
+  background-color: $primary;
+  color: white;
+  border: none;
+  width: auto;
+  height: auto;
+  padding: 5px 20px;
+  font-weight: bold;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 5px;
+  font-family: $fontPoppins;
+}
+
+@mixin secondary {
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  font-weight: bold;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 5px;
+  font-family: $fontPoppins;
+  padding: 5px 20px;
+  width: auto;
+  height: auto;
+}

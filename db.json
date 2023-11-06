@@ -1,0 +1,117 @@
+{
+  "posts": [
+    {
+      "id": "123pkfpasddoof",
+      "title": "Adventure With A Stranger in ...",
+      "imageUrl": "https://images.unsplash.com/photo-1682687220742-aba13b6e50ba?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "<h1>TEST DULU YA GES YAA</h1>",
+      "shortDescription": "One of my best travel experience stories was when I went on a romantic road trip with a guy, who I only met once for 5 minutes at a party in the South of France...",
+      "userId": 1,
+      "date": "05 July 2020, Merlin"
+    },
+    {
+      "id": "4091309dsosff",
+      "title": "Beautiful Travel Friendship",
+      "imageUrl": "https://images.unsplash.com/photo-1682687220742-aba13b6e50ba?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "<h1>TEST DULU YA GES YAA</h1>",
+      "shortDescription": "I’ve been in Playa del Carmen, Mexico for a few weeks now for my divemaster training. I spent every day in the water with customers and my instructor. I loved it! We shared the boat with another ...",
+      "userId": 2,
+      "date": "06 October 2020, Chronic"
+    },
+    {
+      "id": "dwar1osdwa",
+      "title": "My Birthday In A Private Castle ..",
+      "imageUrl": "https://images.unsplash.com/photo-1682687220742-aba13b6e50ba?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "<h1>TEST DULU YA GES YAA</h1>",
+      "shortDescription": "A travel story I want to share is from Czechia. Imagine exiting a train in the middle of the rural Czech countryside somewhere 90 minutes east of Prague, dragging your bag down a lonely dirt road—with ...",
+      "userId": 1,
+      "date": "06 October 2020, Chronic"
+    },
+    {
+      "id": "dwaff2rr454",
+      "title": "Meeting The President Of Ecu ...",
+      "imageUrl": "https://images.unsplash.com/photo-1682687220742-aba13b6e50ba?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "<h1>TEST DULU YA GES YAA</h1><br /><br /><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of  (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>",
+      "shortDescription": "My best travel story is from a time I was in a small city called Salinas on the south coast of Ecuador. I was just hanging with a local friend and surfing every day before I started to head ...",
+      "userId": 2,
+      "date": "06 October 2020, Chronic"
+    },
+    {
+      "id": "ofkeokfoeksdw",
+      "title": "Adventure With A Stranger in ...",
+      "imageUrl": "https://images.unsplash.com/photo-1682687220742-aba13b6e50ba?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "<h1>TEST DULU YA GES YAA</h1>",
+      "shortDescription": "One of my best travel experience stories was when I went on a romantic road trip with a guy, who I only met once for 5 minutes at a party in the South of France...",
+      "userId": 1,
+      "date": "05 July 2020, Merlin"
+    },
+    {
+      "id": "feaijfeajpoawkpwa",
+      "title": "Beautiful Travel Friendship",
+      "imageUrl": "https://images.unsplash.com/photo-1682687220742-aba13b6e50ba?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "<h1>TEST DULU YA GES YAA</h1>",
+      "shortDescription": "I’ve been in Playa del Carmen, Mexico for a few weeks now for my divemaster training. I spent every day in the water with customers and my instructor. I loved it! We shared the boat with another ...",
+      "userId": 2,
+      "date": "06 October 2020, Chronic"
+    },
+    {
+      "id": "ggegegegejjjks",
+      "title": "My Birthday In A Private Castle ..",
+      "imageUrl": "https://images.unsplash.com/photo-1682687220742-aba13b6e50ba?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "<h1>TEST DULU YA GES YAA</h1>",
+      "shortDescription": "A travel story I want to share is from Czechia. Imagine exiting a train in the middle of the rural Czech countryside somewhere 90 minutes east of Prague, dragging your bag down a lonely dirt road—with ...",
+      "userId": 1,
+      "date": "06 October 2020, Chronic"
+    },
+    {
+      "id": "dwaff2rr454",
+      "title": "Meeting The President Of Ecu ...",
+      "imageUrl": "https://images.unsplash.com/photo-1682687220742-aba13b6e50ba?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "<h1>TEST DULU YA GES YAA</h1>",
+      "shortDescription": "My best travel story is from a time I was in a small city called Salinas on the south coast of Ecuador. I was just hanging with a local friend and surfing every day before I started to head ...",
+      "userId": 2,
+      "date": "06 October 2020, Chronic"
+    },
+    {
+      "id": "pgoeakpokfowakwad",
+      "title": "Adventure With A Stranger in ...",
+      "imageUrl": "https://images.unsplash.com/photo-1682687220742-aba13b6e50ba?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "<h1>TEST DULU YA GES YAA</h1>",
+      "shortDescription": "One of my best travel experience stories was when I went on a romantic road trip with a guy, who I only met once for 5 minutes at a party in the South of France...",
+      "userId": 1,
+      "date": "05 July 2020, Merlin"
+    },
+    {
+      "id": "faiubncnmc123543w",
+      "title": "Beautiful Travel Friendship",
+      "imageUrl": "https://images.unsplash.com/photo-1682687220742-aba13b6e50ba?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "<h1>TEST DULU YA GES YAA</h1>",
+      "shortDescription": "I’ve been in Playa del Carmen, Mexico for a few weeks now for my divemaster training. I spent every day in the water with customers and my instructor. I loved it! We shared the boat with another ...",
+      "userId": 2,
+      "date": "06 October 2020, Chronic"
+    },
+    {
+      "id": "pkpaodwappqqlk2",
+      "title": "My Birthday In A Private Castle ..",
+      "imageUrl": "https://images.unsplash.com/photo-1682687220742-aba13b6e50ba?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "<h1>TEST DULU YA GES YAA</h1>",
+      "shortDescription": "A travel story I want to share is from Czechia. Imagine exiting a train in the middle of the rural Czech countryside somewhere 90 minutes east of Prague, dragging your bag down a lonely dirt road—with ...",
+      "userId": 1,
+      "date": "06 October 2020, Chronic"
+    },
+    {
+      "id": "mmkaskmdowia",
+      "title": "Meeting The President Of Ecu ...",
+      "imageUrl": "https://images.unsplash.com/photo-1682687220742-aba13b6e50ba?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "<h1>TEST DULU YA GES YAA</h1>",
+      "shortDescription": "My best travel story is from a time I was in a small city called Salinas on the south coast of Ecuador. I was just hanging with a local friend and surfing every day before I started to head ...",
+      "userId": 2,
+      "date": "06 October 2020, Chronic"
+    }
+  ],
+  "profile": {
+    "id": 1,
+    "name": "Fadhil",
+    "password": "fadhil1234"
+  }
+}
