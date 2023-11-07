@@ -36,7 +36,7 @@ export default function RegisterPage() {
       return setError("User sudah terdaftar");
     } else {
       dispatch(postProfileAction(user));
-      navigate("/");
+      navigate("/login");
     }
   };
 
