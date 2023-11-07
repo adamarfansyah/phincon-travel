@@ -4,6 +4,9 @@ import ProfilePage from "./pages/Profile";
 import NewJourneyPage from "./pages/NewJourney";
 import BookmarkPage from "./pages/Bookmark";
 import DetailPostPage from "./pages/DetailPost";
+import LoginPage from "./pages/Login";
+import RegisterPage from "./pages/Register";
+import LogoutPage from "./pages/Logout";
 
 const router = createBrowserRouter([
   {
@@ -25,6 +28,18 @@ const router = createBrowserRouter([
   {
     path: "/detail/:postId",
     element: <DetailPostPage />,
+  },
+  {
+    path: "/login",
+    element: <LoginPage />,
+  },
+  {
+    path: "/register",
+    element: <RegisterPage />,
+  },
+  {
+    path: "/logout",
+    element: <LogoutPage />,
   },
 ]);
 

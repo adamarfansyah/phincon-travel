@@ -7,7 +7,3 @@ export const getAllPostApi = () => {
 export const createPostApi = (post) => {
   return callAPI(urls.posts, "POST", {}, {}, post);
 };
-
-// export const createPost = (post) => {
-//   return callAPI(urls.posts, "POST", {}, {}, post);
-// };

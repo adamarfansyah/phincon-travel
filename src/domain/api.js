@@ -6,6 +6,7 @@ export const urls = {
   posts: "/posts",
   bookmarks: "/bookmarks",
   profile: "/profile",
+  login: "/login",
 };
 
 export const callAPI = async (endpoint, method, params = {}, headers = {}, data = {}) => {

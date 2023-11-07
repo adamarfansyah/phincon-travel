@@ -6,7 +6,6 @@ import { createPostFailureAction, createPostAction } from "./actions";
 function* doCreatePost({ post }) {
   try {
     const response = yield call(createPostApi, post);
-    console.log({ response });
     yield put(createPostAction(response));
   } catch (error) {
     yield put(createPostFailureAction(error));

@@ -1,9 +1,10 @@
 /* eslint-disable react/prop-types */
-import styles from "./input.module.scss";
+import styles from "./inputCustom.module.scss";
 
-export default function Input({ placeholder, onClick, onChange, name, label, value, ...rest }) {
+export default function InputCustom({ placeholder, onChange, name, label, value, ...rest }) {
   return (
     <div className={styles.inputCustom}>
+      <label className={styles.label}>{label}</label>
       <input
         placeholder={placeholder}
         onChange={onChange}
@@ -11,11 +12,6 @@ export default function Input({ placeholder, onClick, onChange, name, label, val
         {...rest}
         defaultValue={value}
       />
-      <div>
-        <button className={styles.btn} onClick={onClick}>
-          {label}
-        </button>
-      </div>
     </div>
   );
 }

@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import CardPost from "../../components/CardPost";
 import styles from "./listCardPosts.module.scss";
 import { useNavigate } from "react-router-dom";
@@ -8,6 +8,7 @@ import { createBookmarkAction, deleteBookmarkAction } from "../../pages/Bookmark
 export default function ListCardPost({ payload, isLoading, bookmarks }) {
   const navigate = useNavigate();
   const dispatch = useDispatch();
+  // const { user } = useSelector((state) => state.userLoginReducer);
 
   const navigateToDetail = (id) => {
     navigate(`/detail/${id}`);

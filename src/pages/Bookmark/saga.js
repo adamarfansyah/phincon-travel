@@ -9,13 +9,10 @@ import {
   getAllBookmarksFailureAction,
   getAllBookmarksSuccessAction,
 } from "./actions";
-// import { getAllPost, createPost } from "../../domain/api";
-// import { setAllPost, setNewPost } from "./actions";
 
 function* doGetBookmarks() {
   try {
     const response = yield call(getBookmarksApi);
-    console.log({ response });
     yield put(getAllBookmarksSuccessAction(response));
   } catch (error) {
     yield console.log({ error });
@@ -26,7 +23,6 @@ function* doGetBookmarks() {
 function* doCreateBookmark({ bookmark }) {
   try {
     const response = yield call(createBookmarkApi, bookmark);
-    console.log({ response });
     yield put(createBookmarkAction(response));
   } catch (error) {
     yield put(createBookmarkFailureAction(error));
@@ -36,7 +32,6 @@ function* doCreateBookmark({ bookmark }) {
 function* doDeleteBookmark({ bookmarkId }) {
   try {
     const response = yield call(deleteBookmarkApi, bookmarkId);
-    console.log({ response });
     yield put(deleteBookmarkAction(response));
   } catch (error) {
     yield put(deleteBookmarkFailureAction(error));

@@ -1,0 +1,27 @@
+@import "../../styles/base";
+
+.newJourneyPage {
+  margin: 30px 0;
+  h1 {
+    @include title;
+    margin-bottom: 20px;
+  }
+}
+
+.newJourney__form {
+  padding: 0px 30px;
+}
+
+.btns {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+  .btn {
+    @include primary;
+  }
+}
+
+.textEditor {
+  margin-top: 20px;
+}

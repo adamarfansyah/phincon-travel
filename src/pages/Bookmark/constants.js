@@ -12,3 +12,5 @@ export const SET_BOOKMARKS_FAILURE = createActions(prefix, "setBookmarkFailure")
 
 export const DELETE_BOOKMARK_SUCCESS = createActions(prefix, "deleteBookmarkSuccess");
 export const DELETE_BOOKMARK_FAILURE = createActions(prefix, "deleteBookmarkFailure");
+
+export const FILTER_BOOKMARKS = createActions(prefix, "filterBookmarksSuccess");

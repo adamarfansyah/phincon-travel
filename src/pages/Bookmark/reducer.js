@@ -8,10 +8,12 @@ import {
   GET_BOOKMARKS_SUCCESS,
   SET_BOOKMARKS_FAILURE,
   SET_BOOKMARKS_SUCCESS,
+  FILTER_BOOKMARKS,
 } from "./constants";
 
 export const initialState = {
   bookmarks: [],
+  filteredBookmarks: [],
   isLoading: false,
   isError: "",
 };
@@ -44,7 +46,10 @@ const bookmarksReducer = (state = initialState, action) =>
         break;
       case DELETE_BOOKMARK_FAILURE:
         draft.isError = action.error;
-
+        break;
+      case FILTER_BOOKMARKS:
+        const { userId } = action;
+        draft.filteredBookmarks = draft.bookmarks.filter((bookmark) => bookmark.userId === userId);
         break;
     }
   });

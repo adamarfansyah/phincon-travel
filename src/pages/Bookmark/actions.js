@@ -1,6 +1,7 @@
 import {
   DELETE_BOOKMARK_FAILURE,
   DELETE_BOOKMARK_SUCCESS,
+  FILTER_BOOKMARKS,
   GET_BOOKMARKS_FAILURE,
   GET_BOOKMARKS_INIT,
   GET_BOOKMARKS_SUCCESS,
@@ -40,4 +41,9 @@ export const deleteBookmarkAction = (bookmarkId) => ({
 export const deleteBookmarkFailureAction = (error) => ({
   type: DELETE_BOOKMARK_FAILURE,
   error,
+});
+
+export const filteredBookmarkAction = (userId) => ({
+  type: FILTER_BOOKMARKS,
+  userId,
 });

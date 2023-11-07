@@ -1,0 +1,21 @@
+@import "../../styles/base";
+
+.profilePage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .profilePage__wrapper {
+    text-align: center;
+  }
+  .profilePage__btn {
+    @include primary;
+    margin-top: 20px;
+  }
+}
+.profilePage__posts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}

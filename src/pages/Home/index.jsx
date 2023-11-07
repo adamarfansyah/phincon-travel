@@ -1,22 +1,25 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { initGetAllPosts, searchPost } from "./actions";
-import Layout from "../../components/Layout";
-import styles from "./home.module.scss";
-import Input from "../../components/Input";
+import { Layout, Input } from "../../components";
 import ListCardPost from "../../container/ListCardPosts";
-import { getBookmarksAction } from "../Bookmark/actions";
+import styles from "./home.module.scss";
+import { filteredBookmarkAction, getBookmarksAction } from "../Bookmark/actions";
 
 const HomePage = () => {
   const dispatch = useDispatch();
   const { posts, value, filteredPost, isLoading } = useSelector((state) => state.homeReducer);
-  const { bookmarks } = useSelector((state) => state.bookmarksReducer);
+  const { user } = useSelector((state) => state.userLoginReducer);
+  const { bookmarks, filteredBookmarks } = useSelector((state) => state.bookmarksReducer);
 
+  console.log(user);
   useEffect(() => {
     dispatch(initGetAllPosts());
     dispatch(getBookmarksAction());
+    dispatch(filteredBookmarkAction(user.id));
   }, []);
 
+  console.log(filteredBookmarks);
   return (
     <Layout title="Home Page">
       <div className={styles.homePage}>

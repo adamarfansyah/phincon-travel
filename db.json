@@ -100,55 +100,67 @@
       "date": "06 October 2020, Chronic"
     },
     {
-      "title": "LAGI",
+      "userId": 1,
+      "title": "test",
       "imageUrl": "https://images.unsplash.com/photo-1693974660255-049ab5cbefdb?auto=format&fit=crop&q=80&w=2063&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "shortDescription": "tEST ADD ",
-      "description": "<h1>test add</h1>",
-      "id": "CKdZY54"
+      "shortDescription": "adawdwada",
+      "description": "<h1>test</h1>",
+      "id": "xYjV8dH"
     },
     {
-      "title": "tetsdw",
+      "userId": 2,
+      "title": "test1231231",
       "imageUrl": "https://images.unsplash.com/photo-1693974660255-049ab5cbefdb?auto=format&fit=crop&q=80&w=2063&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "shortDescription": "awdawd",
-      "description": "<h1>test add</h1>",
-      "id": "khdI20p"
+      "shortDescription": "awdwadwa",
+      "description": "<h1>test beneran dha</h1>",
+      "id": "J3fuCnh"
     },
     {
-      "title": "tetsdw",
+      "userId": 3,
+      "title": "test",
+      "date": "19 August 2005, Morgana",
       "imageUrl": "https://images.unsplash.com/photo-1693974660255-049ab5cbefdb?auto=format&fit=crop&q=80&w=2063&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "shortDescription": "awdawd",
-      "description": "<h1>test add</h1>",
-      "id": "JOJwv_E"
+      "shortDescription": "adammmmm",
+      "description": "<h1>deskripsi panjang</h1>",
+      "id": "zw6819j"
+    },
+    {
+      "userId": 3,
+      "title": "add lagi",
+      "date": "27 June 2019, Gawain",
+      "imageUrl": "https://images.unsplash.com/photo-1693974660255-049ab5cbefdb?auto=format&fit=crop&q=80&w=2063&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "shortDescription": "123123",
+      "description": "<p>asdwadwa</p>",
+      "id": "OpNBuNG"
     }
   ],
   "profile": [
     {
       "id": 1,
-      "name": "Fadhil",
-      "password": "fadhil1234"
+      "username": "Fadhil",
+      "password": "fadhil1234",
+      "email": "test@gmail.com"
     },
     {
       "id": 2,
-      "name": "Cihuahua",
-      "password": "fadhil1234"
-    }
-  ],
-  "bookmarks": [
-    {
-      "id": "4091309dsosff",
-      "title": "Beautiful Travel Friendship",
-      "imageUrl": "https://images.unsplash.com/photo-1682687220742-aba13b6e50ba?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "<h1>TEST DULU YA GES YAA</h1>",
-      "shortDescription": "I’ve been in Playa del Carmen, Mexico for a few weeks now for my divemaster training. I spent every day in the water with customers and my instructor. I loved it! We shared the boat with another ...",
-      "userId": 2,
-      "date": "06 October 2020, Chronic"
+      "username": "Cihuahua",
+      "password": "fadhil1234",
+      "email": "cihuahua@mail.com"
     },
     {
-      "title": "tetsdw",
-      "imageUrl": "https://images.unsplash.com/photo-1693974660255-049ab5cbefdb?auto=format&fit=crop&q=80&w=2063&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "shortDescription": "awdawd",
-      "description": "<h1>test add</h1>",
-      "id": "JOJwv_E"
+      "username": "amar",
+      "email": "adamarfansyah@mail.com",
+      "password": "amar",
+      "id": 3
+    }
+  ],
+  "bookmarks": [],
+  "login": [
+    {
+      "username": "amar",
+      "email": "adamarfansyah@mail.com",
+      "password": "amar",
+      "id": 3
     }
   ]
 }
