@@ -132,6 +132,33 @@
       "shortDescription": "123123",
       "description": "<p>asdwadwa</p>",
       "id": "OpNBuNG"
+    },
+    {
+      "userId": 4,
+      "title": "Test Add",
+      "date": "22 November 2002, Gawain",
+      "imageUrl": "https://images.unsplash.com/photo-1693974660255-049ab5cbefdb?auto=format&fit=crop&q=80&w=2063&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "shortDescription": "New Short",
+      "description": "<p>Hallo gais</p>",
+      "id": "1f5WzYW"
+    },
+    {
+      "userId": 4,
+      "title": "Test add llagi",
+      "date": "10 November 2019, Lancelot",
+      "imageUrl": "https://images.unsplash.com/photo-1693974660255-049ab5cbefdb?auto=format&fit=crop&q=80&w=2063&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "shortDescription": "123123",
+      "description": "<p>1231231231321</p>",
+      "id": "Lj49L7G"
+    },
+    {
+      "userId": 4,
+      "title": "awdwd",
+      "date": "15 October 2000, Merlin",
+      "imageUrl": "https://images.unsplash.com/photo-1693974660255-049ab5cbefdb?auto=format&fit=crop&q=80&w=2063&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "shortDescription": "dawfawfawf",
+      "description": "<p>assadawda</p>",
+      "id": "S_Bf0HA"
     }
   ],
   "profile": [
@@ -152,15 +179,37 @@
       "email": "adamarfansyah@mail.com",
       "password": "amar",
       "id": 3
+    },
+    {
+      "username": "Adam Sake A",
+      "email": "adamarfansyah@mail.com",
+      "password": "Adam123",
+      "id": 4
     }
   ],
-  "bookmarks": [],
+  "bookmarks": [
+    {
+      "id": "123pkfpasddoof",
+      "title": "Adventure With A Stranger in ...",
+      "imageUrl": "https://images.unsplash.com/photo-1682687220742-aba13b6e50ba?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "<h1>TEST DULU YA GES YAA</h1>",
+      "shortDescription": "One of my best travel experience stories was when I went on a romantic road trip with a guy, who I only met once for 5 minutes at a party in the South of France...",
+      "userId": 1,
+      "date": "05 July 2020, Merlin"
+    }
+  ],
   "login": [
     {
       "username": "amar",
       "email": "adamarfansyah@mail.com",
       "password": "amar",
       "id": 3
+    },
+    {
+      "username": "Adam Sake A",
+      "email": "adamarfansyah@mail.com",
+      "password": "Adam123",
+      "id": 4
     }
   ]
 }

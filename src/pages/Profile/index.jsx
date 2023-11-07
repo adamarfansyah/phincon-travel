@@ -4,17 +4,25 @@ import { Layout } from "../../components";
 import Person from "../../assets/zaynmalik.svg";
 import styles from "./profile.module.scss";
 import ListCardPost from "../../container/ListCardPosts";
+import { useDispatch } from "react-redux";
+import { useEffect } from "react";
+import { initGetAllPosts } from "../Home/actions";
 
 export default function ProfilePage() {
+  const dispatch = useDispatch();
   const { user, isLoggedIn } = useSelector((state) => state.userLoginReducer);
   const { posts, isLoading } = useSelector((state) => state.homeReducer);
   const { bookmarks } = useSelector((state) => state.bookmarksReducer);
-  const filteredPosts = posts.filter((post) => post.userId === user.id);
+  const filteredPosts = posts?.filter((post) => post?.userId === user?.id);
   const navigate = useNavigate();
 
   const navigateTo = () => {
     navigate("/new-journey");
   };
+
+  useEffect(() => {
+    dispatch(initGetAllPosts());
+  }, []);
 
   if (!isLoggedIn) {
     return (

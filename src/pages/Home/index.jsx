@@ -10,16 +10,14 @@ const HomePage = () => {
   const dispatch = useDispatch();
   const { posts, value, filteredPost, isLoading } = useSelector((state) => state.homeReducer);
   const { user } = useSelector((state) => state.userLoginReducer);
-  const { bookmarks, filteredBookmarks } = useSelector((state) => state.bookmarksReducer);
+  const { bookmarks } = useSelector((state) => state.bookmarksReducer);
 
-  console.log(user);
   useEffect(() => {
     dispatch(initGetAllPosts());
     dispatch(getBookmarksAction());
     dispatch(filteredBookmarkAction(user.id));
   }, []);
 
-  console.log(filteredBookmarks);
   return (
     <Layout title="Home Page">
       <div className={styles.homePage}>
